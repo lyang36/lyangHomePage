@@ -2,8 +2,8 @@
 /************Put computer science pubs here****************/
 var talkList = [
 	talkEntry("Streaming Symmetric Norms via Measure Concentration", "12/2015", "MIT", "Theory Seminar", ""),
-	talkEntry("Streaming Symmetric Norms via Measure Concentration", "02/2016", "DIMACS", "Theory Seminar", "")
-	//talkEntry("Streaming Symmetric Norms via Measure Concentration", "02/2016", "DIMACS", "Theory Seminar", "")
+	talkEntry("Streaming Symmetric Norms via Measure Concentration", "02/2016", "DIMACS", "Theory Seminar", ""),
+	talkEntry("Streaming Symmetric Norms via Measure Concentration", "11/2016", "Berkeley", "Theory Lunch", "")
 ];
 
 

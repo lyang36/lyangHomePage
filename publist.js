@@ -1,31 +1,138 @@
 
 /***********************Preprints*********************/
 var preprintList = [
-	pubEntry('Dynamic Partition of Complex Networks',
-		'2017',
+  pubEntry('Solving Discounted Stochastic Two-Player Games with Near-Optimal Time and Sample Complexity ',
+		'2019',
 		'Manuscript',
-		'Vladimir Braverman, Tuo Zhao, Mengdi Wang',
-		'https://arxiv.org/pdf/1705.07881.pdf'
+		'Aaron Sidford, Mengdi Wang,  Yinyu Ye',
+		'https://arxiv.org/abs/1908.11071'
 	),
-	
-	pubEntry('Sketches for Matrix Norms: Faster, Smaller and More General',
-		'2016',
+  pubEntry('On the Optimality of Sparse Model-Based Planning for Markov Decision Processes',
+		'2019',
 		'Manuscript',
-		'Braverman, V., Stephen, C., Krauthgamer, R. (Alphabetic order)',
-		"https://arxiv.org/abs/1609.05885"
+		'Alekh Agarwal, Sham Kakade',
+		'https://arxiv.org/abs/1906.03804'
 	),
-	
-	pubEntry('The Physical Systems Behind Optimization Algorithms',
-		'2016',
+  pubEntry('Reinforcement Learning in Feature Space: Matrix Bandit, Kernels, and Regret Bound',
+		'2019',
 		'Manuscript',
-		'R. Arora, V. Braverman, Tuo Zhao',
-		"https://arxiv.org/abs/1612.02803"
-	)
+		' Mengdi Wang',
+		'https://arxiv.org/abs/1905.10389'
+	),
+  pubEntry('Learning to Control in Metric Space with Optimal Regret',
+		'2019',
+		'Manuscript',
+		'Chengzhuo Ni, Mengdi Wang',
+		'https://arxiv.org/abs/1905.01576'
+	),
+  pubEntry('Universal Streaming of Subset Norms ',
+		'2018',
+		'Manuscript',
+		'Vladimir Braverman, Robert Krauthgamer',
+		'https://arxiv.org/abs/1812.00241'
+	),
+  pubEntry('Variance Reduction Methods for Sublinear Reinforcement Learning',
+		'2018',
+		'Manuscript',
+		'Sham Kakade, Mengdi Wang',
+		'https://arxiv.org/abs/1802.09184'
+	),
+  pubEntry('Nearly Optimal Dynamic $k$-Means Clustering for High-Dimensional Data ',
+		'2018',
+		'Manuscript',
+		'Wei Hu, Zhao Song, Peilin Zhong',
+		'https://arxiv.org/abs/1802.00459'
+	),
 
 ]
 
 /************Put conference pubs here****************/
 var confList = [
+  pubEntry('Efficient Symmetric Norm Regression via Linear Sketching',
+		'2019',
+		'NeurIPS',
+		'Zhao Song, Ruosong Wang, Hongyang Zhang, Peilin Zhong',
+		''
+	),
+  pubEntry('Online Factorization and Partition of Complex Networks by Random Walk',
+		'2019',
+		'UAI',
+		'Zheng Yu, Vladimir Braverman, Tuo Zhao, Mengdi Wang',
+		'https://arxiv.org/abs/1705.07881'
+	),  
+    
+  pubEntry('Sample-Optimal Parametric Q-Learning with Linear Transition Models',
+		'2019',
+		'ICML',
+		'Mengdi Wang',
+		'https://arxiv.org/abs/1902.04779'
+	),
+
+  pubEntry('The One-Way Communication Complexity of Dynamic Time Warping Distance',
+		'2019',
+		'SoCG',
+		'Vladimir Braverman,Moses Charikar, William Henry Kuszmaul, David Woodruff',
+		'https://arxiv.org/pdf/1903.03520.pdf'
+	),
+
+  pubEntry('Towards a Theoretical Understanding of Hashing-Based Neural Nets',
+		'2019',
+		'AISTATS',
+		'Yibo Lin, Zhao Song',
+		''
+	),
+
+  pubEntry('On Landscape of Lagrangian Functions and Stochastic Search for Constrained Nonconvex Optimization',
+		'2019',
+		'AISTATS',
+		'Zhehui Chen, Xingguo Li, Jarvis Haupt and Tuo Zhao ',
+		'https://arxiv.org/pdf/1806.05151.pdf'
+	),
+
+  pubEntry('Near-Optimal Time and Sample Complexities for Solving Discounted Markov Decision Process with a Generative Mode',
+		'2018',
+		'NIPS',
+		'Aaron Sidford, Mengdi Wang, Xian Wu, and Yinyu Ye',
+		'https://arxiv.org/abs/1806.01492'
+	),
+  
+  pubEntry('Dimensionality Reduction for Stationary Time Series via Stochastic Nonconvex Optimization',
+		'2018',
+		'NIPS',
+		'Minshuo Chen, Mengdi Wang, Tuo Zhao',
+		'https://arxiv.org/pdf/1803.02312.pdf'
+	),
+  
+  
+	pubEntry('The Physical Systems Behind Optimization Algorithms',
+		'2018',
+		'NIPS',
+		'R. Arora, V. Braverman, Tuo Zhao',
+		"https://arxiv.org/abs/1612.02803"
+	),
+
+	pubEntry('Matrix Norms in Data Streams: Faster, Multi-Pass and Row-Order',
+		'2018',
+		'ICML',
+		'Vladimir Braverman, Stephen R. Chestnut, Robert Krauthgamer, Yi Li, David P. Woodruff (Alphabetic order)',
+		"https://arxiv.org/abs/1609.05885"
+	),
+	
+
+	pubEntry('Approximate Convex Hull of Data Streams',
+		'2018',
+		'ICALP',
+		'Avrim Blum, Vladimir Braverman, Ananya Kumar, Harry Lang',
+		'https://arxiv.org/pdf/1712.04564.pdf'
+	),
+
+  pubEntry('Revisiting Frequency Moment Estimation in Random Order Streams',
+		'2018',
+		'ICALP',
+		'Vladimir Braverman, Emanuele Viola, and David P. Woodruff ',
+		'https://arxiv.org/abs/1803.02270'
+	),
+
 	pubEntry('On Asymptotic Quadratic Convergence of Proximal Newton Method in High Dimensions',
 			'2017',
 			'NIPS',
@@ -78,15 +185,36 @@ var confList = [
 		'FSTTCS',
 		'Chakraborty, D., Pavan, A., Tewari, R. Vinodchandran, N. V. (Alphabetic order)',
 		"http://drops.dagstuhl.de/opus/volltexte/2014/4873/pdf/49.pdf"
+	),
+  
+  pubEntry('Harmonicare: a novel wind instrument easy to learn and play',
+			'2011',
+			'Ubicomp',
+			'Zhang, X, Wang Y., and Yi, H., Tao P.',
+			"http://dl.acm.org/citation.cfm?id=2030189"
 	)
 ];
 
 /*********Journal Publications Here***********/
 var journalList = [
 
+  pubEntry('Misspecified Nonconvex Statistical Optimization for Phase Retrieval',
+		'2018',
+    "Accepted by Mathematical Programming, Series B",
+		'Zhuoran Yang, Ethan X. Fang, Tuo Zhao, Zhaoran Wang, Matey Neykov',
+		"https://arxiv.org/abs/1712.06245",
+	),
+
+	pubEntry('Scalable Streaming Tools for Analyzing N-body Simulations: Finding Halos and Investigating Excursion Sets in One Pass',
+		'2018',
+		'Astronomy and Computing',
+		'Nikita Ivkin, Zaoxing Liu, Srinivas Suresh Kumar, Gerard Lemson, Mark Neyrinck, Alexander S. Szalay, Vladimir Braverman, Tamas Budavari',
+		"https://arxiv.org/abs/1711.00975"
+	),
+
 	pubEntry('Warmth elevating the depths: shallower voids with warm dark matter',
 			'2015',
-			'MNRAS',
+			'Monthly Notices of the Royal Astronomical Society',
 			'Neyrinck, M., Aragon-Calvo, M., Falck, B., & Silk, J.',
 			"http://arxiv.org/pdf/1411.5029.pdf"
 	),
@@ -97,24 +225,32 @@ var journalList = [
 			'Silk, J., Szalay, A., Wyse, R., Bozek, B., & Madau, P.',
 			"https://arxiv.org/pdf/1312.0006.pdf"
 	),
+  
+  
+	pubEntry('Learning to translate with products of novices: a suite of open-ended challenge problems for teaching MT',
+		'2013',
+		'Transactions of the Association for Computational Linguistics',
+		'A Lopez, M Post, C Callison-Burch, et al',
+		"http://www.aclweb.org/anthology/Q13-1014"
+	),
 	
 	pubEntry('The hierarchical nature of the spin alignment of dark matter haloes in filaments',
 			'2013',
-			'MNRAS',
+			'Monthly Notices of the Royal Astronomical Society',
 			'Aragon-Calvo, M. F',
 			"http://mnrasl.oxfordjournals.org/content/440/1/L46.short"
 	),
 	
 	pubEntry('Ringing the initial Universe: the response of overdensity and transformed-density power spectra to initial spikes',
 			'2013',
-			'MNRAS',
+			'Monthly Notices of the Royal Astronomical Society',
 			'Neyrinck, M.',
 			"http://mnras.oxfordjournals.org/content/433/2/1628.short"
 	),
 	
 	pubEntry('A GPU-Based Visualization Method for Computing Dark Matter Annihilation Signal',
 			'2013',
-			'ADASS',
+			'The Astronomical Data Analysis Software and Systems',
 			'Szalay, A.',
 			""
 	),
@@ -126,29 +262,25 @@ var journalList = [
 			"http://arxiv.org/pdf/1103.5281.pdf"
 	),
 	
-	pubEntry('Harmonicare: a novel wind instrument easy to learn and play',
-			'2011',
-			'Ubicomp',
-			'Zhang, X, Wang Y., and Yi, H., Tao P.',
-			"http://dl.acm.org/citation.cfm?id=2030189"
-	)
+
 ];
 
 
-function pubEntry(title, year, journual, coAuthors, pdfLink){
+function pubEntry(title, year, journual, coAuthors, pdfLink, intro = ""){
 	return '<article> \
 				<div class="inner"> \
 				<ul class="nobullet"> \
 					<li><i>' + title + ' (<b style="color:#000000";>' + journual + '</b>, '  + year + ')</i></li> \
-					<li>With ' + coAuthors + '</li>' 
-					+
-					(pdfLink == "" ? "" : '<li><a href="'+pdfLink + '">PDF</a></li>')
-				+
-				'</ul> \
+					<li>With ' + coAuthors + '</li><li>' 
+          +
+					(pdfLink == "" ? "" : '<a href="'+pdfLink + '">PDF</a> ')
+          +
+					(intro == "" ? "" : '<details><summary>Summary </summary><p><b>'+intro + '</b></p></details>') 
+          +
+				'</li></ul> \
 				</div> \
 			</article>'
 };
-
 
 document.write('\
 \

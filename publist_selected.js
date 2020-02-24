@@ -32,9 +32,9 @@ var selectedList = [
   pubEntry('Near-Optimal Time and Sample Complexities for Solving Discounted Markov Decision Process with a Generative Mode',
 		'2018',
 		'NeurIPS',
-		'Aaron Sidford, Mengdi Wang, Xian Wu, and Yinyu Ye',
+		'Aaron Sidford, Mengdi Wang, Xian Wu, and Yinyu Ye</br><b>Best poster award, Princeton Day of Optimization (2018).</b>',
 		'https://arxiv.org/abs/1806.01492',
-    'Best poster award of Princeton Day of Optimization (2018).  A result that resolves the long standing open-problem of the sample complexity of reinforcement learning with a generative model.'
+    'A result that resolves the long standing open-problem of the sample complexity of reinforcement learning with a generative model.'
 	),
   
   pubEntry('Dimensionality Reduction for Stationary Time Series via Stochastic Nonconvex Optimization',
